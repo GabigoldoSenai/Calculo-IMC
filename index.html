@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC | Exercício aula 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Cálculo de IMC</h2>
+
+
+        <form class="form">
+            <label for="getWeight">Insira seu peso (kg)</label>
+            <input type="number" placeholder="Ex.: 70.5" id="getWeight">
+            <label for="getHeight">Insira sua altura (m)</label>
+            <input type="number" placeholder="Ex.: 1.80" id="getHeight">
+        </form>
+
+        <button id="submitForm">Calcular IMC</button>
+
+        <div class="result">
+            <h2>Seu resultado:</h2>
+            <div class="textResult">
+                <p>Valor IMC: <span class="IMCResult"></span></p>
+                <p>Classificação: <span class="classResult"></span></p>
+            </div>
+
+            <button id="repeatBtn">Reiniciar</button>
+        </div>
+
+    </div>
+
+    <script src="./aula2-exercicio.js"></script>
+</body>
+
+</html>
