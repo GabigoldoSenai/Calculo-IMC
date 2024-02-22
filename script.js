@@ -1,4 +1,3 @@
-
 const getWeightInput = document.querySelector('#getWeight');
 const getHeightInput = document.querySelector('#getHeight');
 const submitFormBtn = document.querySelector('#submitForm');
@@ -46,5 +45,6 @@ submitFormBtn.addEventListener('click', () => {
 
 const repeatBtn = document.querySelector('#repeatBtn');
 repeatBtn.addEventListener('click', () => {
-  location.reload();
+  const currentLocation = window.location;
+  currentLocation.reload();
 });
